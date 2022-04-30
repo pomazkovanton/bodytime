@@ -1,0 +1,25 @@
+.header__adress {
+  position: relative;
+  padding-left: 40px;
+  margin: 0;
+  color: rgb(54 52 49);
+  font-family: var(--main-font-text);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.header__adress::after {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-image: url(../../../../accets/images/icon-location.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  content: '';
+  transform: translateY(-50%);
+}
