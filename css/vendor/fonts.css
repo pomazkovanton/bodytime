@@ -1,6 +1,12 @@
 @font-face {
-  font-family: Inter;
-  font-weight: 900;
-  src: url('../../accets/fonts/Inter-Black.woff2') format('woff2'), url('../../accets/fonts/Inter-Black.woff') format('woff');
+  font-family: Vanta;
+  font-weight: 400;
+  src: url('../../accets/fonts/Vanta.woff2') format('woff2'), url('../../accets/fonts/Vanta.woff') format('woff');
+}
+
+@font-face {
+  font-family: VantaLight;
+  font-weight: 400;
+  src: url('../../accets/fonts/VantaLightPlain.woff2') format('woff2'), url('../../accets/fonts/VantaLightPlain.woff') format('woff');
 }
 

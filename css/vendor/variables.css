@@ -2,5 +2,6 @@
   --main-color-dark: rgb(0 0 0);
   --main-color-light: rgb(255 255 255);
   --main-color-gray: rgb(84 84 84);
-  --main-font: 'Inter', arial, sans-serif;
+  --main-font-text: 'VantaLight', arial, sans-serif;
+  --main-font-title: 'Vanta', arial, sans-serif;
 }
