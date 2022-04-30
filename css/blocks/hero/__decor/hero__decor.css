@@ -1,0 +1,6 @@
+.hero__decor {
+  display: block;
+  width: 120px;
+  height: 2px;
+  background-color: var(--main-color-light);
+}

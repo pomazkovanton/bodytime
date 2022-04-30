@@ -1,10 +1,11 @@
 :root {
   --main-color-dark: rgb(0 0 0);
+  --main-color-text: rgb(54 52 49);
   --main-color-light: rgb(255 255 255);
   --main-color-gray: rgb(84 84 84);
-  --main-color-lightgray: #C6C6C6;
-  --main-color-green: #74B900;
-  --main-color-lightgreen: #C7DF9E;
+  --main-color-lightgray: rgb(198 198 198);
+  --main-color-green: rgb(116 185 0);
+  --main-color-lightgreen: rgb(199 223 158);
   --main-font-text: 'VantaLight', arial, sans-serif;
   --main-font-title: 'Vanta', arial, sans-serif;
 }
