@@ -1,5 +1,6 @@
 .header__container {
   display: flex;
+  min-width: 272px;
   max-width: 1600px;
   flex-wrap: wrap;
   align-items: center;

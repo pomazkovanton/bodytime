@@ -36,3 +36,9 @@
   left: 40px;
   background-image: url(../../../../accets/images/icon-whatsapp-color.svg);
 }
+
+@media screen and (max-width: 1000px) {
+  .header__phone {
+    display: none;
+  }
+}
