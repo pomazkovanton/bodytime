@@ -12,8 +12,4 @@
     display: none;
     padding-top: 50px;
   }
-
-  .header__nav-list_opened {
-    display: block;
-  }
 }

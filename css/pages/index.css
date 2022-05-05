@@ -7,6 +7,7 @@
 @import url('../blocks/header/__logo/header__logo.css');
 @import url('../blocks/header/__nav/header__nav.css');
 @import url('../blocks/header/__nav-list/header__nav-list.css');
+@import url('../blocks/header/__nav-list/_opened/header__nav-list_opened.css');
 @import url('../blocks/header/__nav-item/header__nav-item.css');
 @import url('../blocks/header/__nav-link/header__nav-link.css');
 @import url('../blocks/header/__phone/header__phone.css');
@@ -14,7 +15,9 @@
 @import url('../blocks/header/__price/header__price.css');
 @import url('../blocks/header/__nav-btn/header__nav-btn.css');
 @import url('../blocks/header/__nav-ico-menu/header__nav-ico-menu.css');
+@import url('../blocks/header/__nav-ico-menu/_show/header__nav-ico-menu_show.css');
 @import url('../blocks/header/__nav-ico-cross/header__nav-ico-cross.css');
+@import url('../blocks/header/__nav-ico-cross/_show/header__nav-ico-cross_show.css');
 
 /* hero */
 @import url(../blocks/hero/hero.css);
