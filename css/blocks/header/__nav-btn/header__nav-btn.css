@@ -1,0 +1,13 @@
+.header__nav-btn {
+  display: none;
+  width: 36px;
+  height: 24px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: opacity 0.6s linear;
+}
+
+.header__nav-btn:hover {
+  opacity: 0.6;
+}

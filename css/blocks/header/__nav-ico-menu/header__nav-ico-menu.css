@@ -1,0 +1,7 @@
+.header__nav-ico-menu {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: var(--main-color-dark);
+  box-shadow: 0 -6px var(--main-color-dark), 0 6px var(--main-color-dark);
+}

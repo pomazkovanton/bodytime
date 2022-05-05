@@ -10,6 +10,10 @@
 @import url('../blocks/header/__nav-link/header__nav-link.css');
 @import url('../blocks/header/__phone/header__phone.css');
 @import url('../blocks/header/__adress/header__adress.css');
+@import url('../blocks/header/__price/header__price.css');
+@import url('../blocks/header/__nav-btn/header__nav-btn.css');
+@import url('../blocks/header/__nav-ico-menu/header__nav-ico-menu.css');
+@import url('../blocks/header/__nav-ico-cross/header__nav-ico-cross.css');
 
 /* hero */
 @import url(../blocks/hero/hero.css);

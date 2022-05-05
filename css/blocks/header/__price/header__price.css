@@ -1,0 +1,14 @@
+.header__price {
+  color: var(--main-color-text);
+  font-family: var(--main-font-text);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-decoration: none;
+  transition: opacity 0.6s linear;
+  display: none;
+}
+
+.header__price:hover {
+  opacity: 0.6;
+}
