@@ -1,0 +1,10 @@
+.services__card-title_size_small {
+  font-size: 22px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .services__card-title_size_small {
+    font-size: 16px;
+  }
+}

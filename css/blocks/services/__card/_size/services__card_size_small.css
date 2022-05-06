@@ -1,0 +1,6 @@
+.services__card_size_small {
+  padding: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

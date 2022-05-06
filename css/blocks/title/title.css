@@ -7,3 +7,9 @@
   margin: 0;
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 28px;
+  }
+}

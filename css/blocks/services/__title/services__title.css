@@ -1,0 +1,9 @@
+.services__title {
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .services__title {
+    margin-bottom: 40px;
+  }
+}

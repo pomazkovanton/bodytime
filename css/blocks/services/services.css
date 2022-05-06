@@ -1,0 +1,15 @@
+.services {
+  max-width: 1361px;
+  margin: auto;
+  padding-top: 200px;
+  padding-bottom: 180px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .services {
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+}

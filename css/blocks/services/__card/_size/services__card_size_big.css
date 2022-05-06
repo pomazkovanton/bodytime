@@ -1,0 +1,17 @@
+.services__card_size_big {
+  padding: 48px;
+  grid-column: span 2;
+  grid-row: span 2;
+  background-image: url(../../../../../accets/images/background_card-big.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: var(--main-color-lightgray);
+}
+
+@media screen and (max-width: 768px) {
+  .services__card_size_big {
+    grid-column: span 1;
+    padding: 24px;
+  }
+}
