@@ -32,6 +32,13 @@
 /* title */
 @import url(../blocks/title/title.css);
 
+/* section about */
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__list/about__list.css);
+@import url(../blocks/about/__item/about__item.css);
+@import url(../blocks/about/__icon/about__icon.css);
+@import url(../blocks/about/__text/about__text.css);
+
 /* section services */
 @import url(../blocks/services/services.css);
 @import url(../blocks/services/__title/services__title.css);
