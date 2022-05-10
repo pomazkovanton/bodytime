@@ -1,0 +1,10 @@
+.slider__price {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 32px;
+  color: var(--main-color-green);
+  font-family: var(--main-font-title);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.7;
+}

@@ -1,0 +1,17 @@
+.slider__btn {
+  display: flex;
+  width: 64px;
+  height: 64px;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: none;
+  background-color: var(--main-color-light);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: opacity 0.5s linear;
+}
+
+.slider__btn:hover {
+  opacity: 0.6;
+}

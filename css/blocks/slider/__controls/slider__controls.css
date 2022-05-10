@@ -1,0 +1,7 @@
+.slider__controls {
+  display: flex;
+  max-width: 512px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 48px auto 0;
+}

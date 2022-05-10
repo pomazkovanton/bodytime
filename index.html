@@ -92,20 +92,32 @@
     </section>
     <section class="slider">
       <h2 class="title">Акции</h2>
-      <ul class="slider__list">
-        <li class="slider__item">
-          <img class="slider__img" src="./accets/images/slide-1.jpg" alt="Девушка держит в руке яблоко" />
-          <div class="slider__content">
-            <h3 class="slider__subtitle">Успеть за 30 дней</h3>
-            <p class="slider__description">Потратьте 1 час в день в студии Body Time для фигуры вашей мечты</p>
-            <b class="slider__price">9 450 р.&nbsp;<span class="slider__old-price">13 500 р.</span></b>
-            <a class="slider__link" href="#">Подробнее</a>
-          </div>
-        </li>
-      </ul>
-      <button class="slider__btn slider__btn_move_prev" type="button" aria-label="Предыдуший слайд"></button>
-      <button class="slider__btn slider__btn_move_next" type="button" aria-label="Следующий слайд"></button>
-      <div class="slider-pagination"></div>
+      <div class="slider__wrapper">
+        <ul class="slider__list">
+          <li class="slider__item">
+            <img class="slider__img" src="./accets/images/slide-1.jpg" alt="Девушка держит в руке яблоко" />
+            <div class="slider__content">
+              <h3 class="slider__subtitle">Успеть за 30 дней</h3>
+              <p class="slider__description">Потратьте 1 час в день в студии Body Time для фигуры вашей мечты</p>
+              <b class="slider__price">9 450 р.&nbsp;<span class="slider__old-price">13 500 р.</span></b>
+              <a class="slider__link" href="#">Подробнее</a>
+            </div>
+          </li>
+        </ul>
+        <div class="slider__controls">
+          <button class="slider__btn slider__btn_move_prev" type="button" aria-label="Предыдуший слайд">
+            <svg class="slider__btn-ico">
+              <use xlink:href="./accets/images/icons.svg#slider-arrow-left"></use>
+            </svg>
+          </button>
+          <div class="slider-pagination"></div>
+          <button class="slider__btn slider__btn_move_next" type="button" aria-label="Следующий слайд">
+            <svg class="slider__btn-ico">
+              <use xlink:href="./accets/images/icons.svg#slider-arrow-right"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
     </section>
     <script src="./scripts/main.js"></script>
   </body>
