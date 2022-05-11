@@ -1,0 +1,8 @@
+.footer__social {
+  display: flex;
+  max-width: 168px;
+  justify-content: space-between;
+  padding: 0;
+  margin: 56px 0 0;
+  list-style: none;
+}
