@@ -1,0 +1,13 @@
+.slider__pagination {
+  max-width: 136px;
+}
+
+.swiper-pagination-bullet {
+  width: 16px;
+  height: 16px;
+  background-color: rgb(174 172 170);
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--main-color-text);
+}
