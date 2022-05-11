@@ -1,0 +1,11 @@
+.slider {
+  padding: 176px 16px;
+  background-color: var(--main-color-slider);
+}
+
+@media screen and (max-width: 820px) {
+  .slider {
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+}

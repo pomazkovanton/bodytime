@@ -1,0 +1,20 @@
+.slider__link {
+  max-width: 512px;
+  color: var(--main-color-text);
+  font-family: var(--main-font-title);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.7;
+  text-decoration: underline;
+  transition: opacity 0.5s linear;
+}
+
+.slider__link:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 820px) {
+  .slider__link {
+    font-size: 16px;
+  }
+}
