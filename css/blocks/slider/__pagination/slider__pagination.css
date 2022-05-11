@@ -11,3 +11,14 @@
 .swiper-pagination-bullet-active {
   background-color: var(--main-color-text);
 }
+
+@media screen and (max-width: 820px) {
+  .slider__pagination {
+    max-width: 80px;
+  }
+
+  .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+  }
+}

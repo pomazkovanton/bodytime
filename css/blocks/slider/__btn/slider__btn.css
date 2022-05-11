@@ -15,3 +15,10 @@
 .slider__btn:hover {
   opacity: 0.6;
 }
+
+@media screen and (max-width: 820px) {
+  .slider__btn {
+    width: 40px;
+    height: 40px;
+  }
+}
