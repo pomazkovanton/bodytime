@@ -5,3 +5,9 @@
   object-fit: cover;
   object-position: center center;
 }
+
+@media screen and (max-width: 820px) {
+  .slider__img {
+    max-width: 100%;
+  }
+}
