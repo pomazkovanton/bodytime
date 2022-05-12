@@ -13,3 +13,11 @@
   color: var(--main-color-light);
   font-family: var(--main-font-text);
 }
+
+@media screen and (max-width: 820px) {
+  .button {
+    max-width: 172px;
+    padding: 18px 10px;
+    font-size: 14px;
+  }
+}
