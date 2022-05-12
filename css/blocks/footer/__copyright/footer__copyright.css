@@ -8,3 +8,12 @@
   font-weight: 400;
   line-height: 1.5;
 }
+
+@media screen and (max-width: 820px) {
+  .footer__copyright {
+    max-width: 100%;
+    margin-top: 24px;
+    font-size: 12px;
+    line-height: 1.3;
+  }
+}

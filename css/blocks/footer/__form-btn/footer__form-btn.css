@@ -17,3 +17,9 @@
 .footer__form-btn:hover {
   opacity: 0.6;
 }
+
+@media screen and (max-width: 820px) {
+  .footer__form-btn {
+    width: 76px;
+  }
+}

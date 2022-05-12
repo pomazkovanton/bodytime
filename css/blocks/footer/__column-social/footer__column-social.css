@@ -1,0 +1,14 @@
+.footer__column-social {
+  position: absolute;
+  bottom: 68px;
+  left: 16px;
+  max-width: 420px;
+}
+
+@media screen and (max-width: 1250px) {
+  .footer__column-social {
+    position: static;
+    width: 100%;
+    max-width: 100%;
+  }
+}
