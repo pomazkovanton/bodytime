@@ -1,0 +1,20 @@
+.footer__nav-link {
+  margin: 0;
+  color: var(--main-color-text);
+  font-family: var(--main-font-text);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: uppercase;
+  transition: opacity 0.5s linear;
+}
+
+.footer__nav-link:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 820px) {
+  .footer__nav-link {
+    font-size: 14px;
+  }
+}

@@ -53,19 +53,21 @@
 @import url(../blocks/services/__card-title/_size/services__card-title_size_big.css);
 @import url(../blocks/services/__card-title/_size/services__card-title_size_small.css);
 
-/* slider */
-@import url(../blocks/slider/slider.css);
-@import url(../blocks/slider/__wrapper/slider__wrapper.css);
-@import url(../blocks/slider/__list/slider__list.css);
-@import url(../blocks/slider/__item/slider__item.css);
-@import url(../blocks/slider/__img/slider__img.css);
-@import url(../blocks/slider/__content/slider__content.css);
-@import url(../blocks/slider/__subtitle/slider__subtitle.css);
-@import url(../blocks/slider/__description/slider__description.css);
-@import url(../blocks/slider/__price/slider__price.css);
-@import url(../blocks/slider/__old-price/slider__old-price.css);
-@import url(../blocks/slider/__link/slider__link.css);
-@import url(../blocks/slider/__controls/slider__controls.css);
-@import url(../blocks/slider/__btn/slider__btn.css);
-@import url(../blocks/slider/__btn-ico/slider__btn-ico.css);
-@import url(../blocks/slider/__pagination/slider__pagination.css);
+/* footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__column-right/footer__column-right.css);
+@import url(../blocks/footer/__column-center/footer__column-center.css);
+@import url(../blocks/footer/__column-social/footer__column-social.css);
+@import url(../blocks/footer/__nav/footer__nav.css);
+@import url(../blocks/footer/__nav-item/footer__nav-item.css);
+@import url(../blocks/footer/__nav-link/footer__nav-link.css);
+@import url(../blocks/footer/__social/footer__social.css);
+@import url(../blocks/footer/__social-link/footer__social-link.css);
+@import url(../blocks/footer/__social-icon/footer__social-icon.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__form/footer__form.css);
+@import url(../blocks/footer/__form-email/footer__form-email.css);
+@import url(../blocks/footer/__form-btn/footer__form-btn.css);
+@import url(../blocks/footer/__politics/footer__politics.css);

@@ -1,0 +1,21 @@
+.footer__social-link {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(243 243 243);
+  border-radius: 50%;
+  transition: background-color 0.5s linear;
+}
+
+.footer__social-link:hover {
+  background-color: rgb(226 223 223);
+}
+
+@media screen and (max-width: 820px) {
+  .footer__social-link {
+    width: 32px;
+    height: 32px;
+  }
+}

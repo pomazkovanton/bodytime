@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Body time</title>
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/pages/index.css" />
   </head>
   <body class="page">
@@ -37,9 +36,9 @@
       <span class="hero__decor"></span>
       <p class="hero__subtitle">Студия Body Time</p>
       <button class="button button_bordered_white">Обратный звонок</button>
-      <a href="#" class="hero__down"></a>
+      <a href="#about" class="hero__down"></a>
     </section>
-    <section class="about">
+    <section class="about" id="about">
       <h2 class="title">О нас</h2>
       <ul class="about__list">
         <li class="about__item">
@@ -91,63 +90,58 @@
         </li>
       </ul>
     </section>
-    <section class="slider">
-      <h2 class="title">Акции</h2>
-      <div class="slider__wrapper">
-        <ul class="slider__list swiper-wrapper">
-          <li class="slider__item swiper-slide">
-            <img class="slider__img" src="./accets/images/slide-1.jpg" alt="Девушка держит в руке яблоко" />
-            <div class="slider__content">
-              <h3 class="slider__subtitle">Успеть за 30 дней</h3>
-              <p class="slider__description">Потратьте 1 час в день в студии Body Time для фигуры вашей мечты</p>
-              <b class="slider__price">9 450 р.&nbsp;<span class="slider__old-price">13 500 р.</span></b>
-              <a class="slider__link" href="#">Подробнее</a>
-            </div>
+    <footer class="footer">
+      <div class="footer__column-right">
+        <ul class="footer__nav">
+          <li class="footer__nav-item"><a href="#" class="footer__nav-link">Наши услуги</a></li>
+          <li class="footer__nav-item"><a href="#" class="footer__nav-link">Акции</a></li>
+          <li class="footer__nav-item"><a href="#" class="footer__nav-link">Прайс</a></li>
+          <li class="footer__nav-item"><a href="#" class="footer__nav-link">Контакты</a></li>
+        </ul>
+      </div>
+      <div class="footer__column-center">
+        <h3 class="footer__title">О нас</h3>
+        <p class="footer__text">
+          Аппаратная коррекция фигуры без диет, таблеток и сверхусилий. У нас вы найдете новейшие методики со 100% результатом. Используем современное оборудование.
+        </p>
+        <p class="footer__text">Мы находимя по адресу: г. Новосибирск, ул. Вокзальная магистраль,16, оф. 205, 2 эт.</p>
+      </div>
+      <div class="footer__column-left">
+        <h3 class="footer__title">Подписаться на новости</h3>
+        <p class="footer__text">Чтобы быть в курсе новых акций и новостей нашего салона подпишитесь на рассылку.</p>
+        <form class="footer__form" action="#" method="post">
+          <input class="footer__form-email" type="email" name="email" id="email" placeholder="Добавьте эл.почту*" />
+          <button class="footer__form-btn" type="submit">Ок</button>
+        </form>
+        <a class="footer__politics" href="#">*Политика конфиденциальности</a>
+      </div>
+      <div class="footer__column-social">
+        <ul class="footer__social">
+          <li class="footer__social-item">
+            <a href="#" class="footer__social-link" aria-label="Вконтакте">
+              <svg class="footer__social-icon">
+                <use xlink:href="./accets/images/icons.svg#footer-vk"></use>
+              </svg>
+            </a>
           </li>
-          <li class="slider__item swiper-slide">
-            <img class="slider__img" src="./accets/images/slide-2.jpg" alt="Девушка мерит лентой талию" />
-            <div class="slider__content">
-              <h3 class="slider__subtitle">Плоский живот</h3>
-              <p class="slider__description">Потратьте 1 час в день в студии Body Time для фигуры вашей мечты</p>
-              <b class="slider__price">7 150 р.&nbsp;<span class="slider__old-price">11 000 р.</span></b>
-              <a class="slider__link" href="#">Подробнее</a>
-            </div>
+          <li class="footer__social-item">
+            <a href="#" class="footer__social-link" aria-label="Google">
+              <svg class="footer__social-icon">
+                <use xlink:href="./accets/images/icons.svg#footer-google"></use>
+              </svg>
+            </a>
           </li>
-          <li class="slider__item swiper-slide">
-            <img class="slider__img" src="./accets/images/slide-3.jpg" alt="Девушка с упругой попой" />
-            <div class="slider__content">
-              <h3 class="slider__subtitle">Упругая попа</h3>
-              <p class="slider__description">Потратьте 1 час в день в студии Body Time для фигуры вашей мечты</p>
-              <b class="slider__price">8 250 р.&nbsp;<span class="slider__old-price">13 750 р.</span></b>
-              <a class="slider__link" href="#">Подробнее</a>
-            </div>
-          </li>
-          <li class="slider__item swiper-slide">
-            <img class="slider__img" src="./accets/images/slide-4.jpg" alt="Девушка проглнулась в мостике" />
-            <div class="slider__content">
-              <h3 class="slider__subtitle">Тонус и упругость</h3>
-              <p class="slider__description">Потратьте 1 час в день в студии Body Time для фигуры вашей мечты</p>
-              <b class="slider__price">10 500 р.&nbsp;<span class="slider__old-price">17 500 р.</span></b>
-              <a class="slider__link" href="#">Подробнее</a>
-            </div>
+          <li class="footer__social-item">
+            <a href="#" class="footer__social-link" aria-label="Instagram">
+              <svg class="footer__social-icon">
+                <use xlink:href="./accets/images/icons.svg#footer-instagram"></use>
+              </svg>
+            </a>
           </li>
         </ul>
-        <div class="slider__controls">
-          <button class="slider__btn slider__btn_move_prev" type="button" aria-label="Предыдуший слайд">
-            <svg class="slider__btn-ico">
-              <use xlink:href="./accets/images/icons.svg#slider-arrow-left"></use>
-            </svg>
-          </button>
-          <div class="slider__pagination"></div>
-          <button class="slider__btn slider__btn_move_next" type="button" aria-label="Следующий слайд">
-            <svg class="slider__btn-ico">
-              <use xlink:href="./accets/images/icons.svg#slider-arrow-right"></use>
-            </svg>
-          </button>
-        </div>
+        <p class="footer__copyright">© 2017-2021 ООО BODY TIME. Все права защищены.</p>
       </div>
-    </section>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    </footer>
     <script src="./scripts/main.js"></script>
   </body>
 </html>

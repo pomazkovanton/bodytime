@@ -8,18 +8,3 @@ buttonMenu.addEventListener('click', () => {
   iconCloseMenu.classList.toggle('header__nav-ico-cross_show');
   menu.classList.toggle('header__nav-list_opened');
 });
-
-const swiper = new Swiper('.slider__wrapper', {
-  cssMode: true,
-  loop: true,
-  navigation: {
-    nextEl: '.slider__btn_move_next',
-    prevEl: '.slider__btn_move_prev',
-  },
-  pagination: {
-    el: '.slider__pagination',
-    clickable: true,
-  },
-  mousewheel: true,
-  keyboard: true,
-});
