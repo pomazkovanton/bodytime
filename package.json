@@ -1,5 +1,14 @@
 {
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "config/commitizen.js"
+    }
+  },
   "devDependencies": {
+    "cz-customizable": "^6.3.0",
     "prettier": "^2.6.2",
     "stylelint": "^14.8.1",
     "stylelint-color-format": "^1.1.0",
